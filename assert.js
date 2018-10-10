@@ -159,7 +159,7 @@ assert.AssertionError = function AssertionError(options) {
 };
 
 // assert.AssertionError instanceof Error
-util.inherits(assert.AssertionError, Error);
+//util.inherits(assert.AssertionError, Error);
 
 function truncate(s, n) {
   if (typeof s === 'string') {
